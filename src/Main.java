@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         task1 ();
+        task2();
 
     }
 
@@ -20,4 +21,21 @@ public class Main {
         System.out.println("Значение переменной apples с типом float равно " + apples);
         System.out.println("Значение переменной cherries с типом double равно " + cherries);
     }
+
+    //
+
+    public static void task2 () {
+        System.out.println("Задача 2");
+        float port = 27.12f;
+        long number = 987678965549L;
+        double people = 2.786;
+        short mass = 569;
+        int temperature = -159;
+        int army = 27897;
+        byte car = 67;
+           }
+     //
+
+
+
 }
