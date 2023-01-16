@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1 ();
         task2();
+        task3();
 
     }
 
@@ -35,6 +36,17 @@ public class Main {
         byte car = 67;
            }
      //
+
+    public static void task3 () {
+        System.out.println("Задача 3");
+        byte LP = 23;
+        byte AS = 27;
+        byte EA = 30;
+        short sheetsTotal = 480;
+        int pupilTotal = LP + AS + EA;
+        int sheetsPerPupil = sheetsTotal / pupilTotal;
+        System.out.println("На каждого ученика рассчитано " + sheetsPerPupil + " листов бумаги.");
+    }
 
 
 
