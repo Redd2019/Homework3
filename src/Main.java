@@ -70,6 +70,10 @@ public class Main {
         System.out.println("За " + time5 + " минут машина произвела " + numberBottles5 + " штук бутылок.");
     }
 
+    public static void task5 () {
+        System.out.println("Задача 5");
+        byte canSum = 120;
 
 
 }
+
