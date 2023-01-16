@@ -3,6 +3,7 @@ public class Main {
         task1 ();
         task2();
         task3();
+        task4();
 
     }
 
@@ -46,6 +47,27 @@ public class Main {
         int pupilTotal = LP + AS + EA;
         int sheetsPerPupil = sheetsTotal / pupilTotal;
         System.out.println("На каждого ученика рассчитано " + sheetsPerPupil + " листов бумаги.");
+    }
+
+    //
+
+    public static void task4 () {
+        System.out.println("Задача 4");
+        byte numberBottles = 16;
+        byte time1 = 2;
+        int bottlePerMinute = numberBottles / time1;
+        byte time2 = 20;
+        int numberBottles2 = bottlePerMinute * time2;
+        short time3 = 1440;
+        int numberBottles3 = bottlePerMinute * time3;
+        short time4 = 4320;
+        int numberBottles4 = bottlePerMinute * time4;
+        int time5 = 43200;
+        int numberBottles5 = bottlePerMinute * time5;
+        System.out.println("За " + time2 + " минут машина произвела " + numberBottles2 + " штук бутылок.");
+        System.out.println("За " + time3 + " минут машина произвела " + numberBottles3 + " штук бутылок.");
+        System.out.println("За " + time4 + " минут машина произвела " + numberBottles4 + " штук бутылок.");
+        System.out.println("За " + time5 + " минут машина произвела " + numberBottles5 + " штук бутылок.");
     }
 
 
