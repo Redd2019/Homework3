@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
 
     }
 
@@ -121,6 +122,33 @@ public class Main {
 
     }
 
+    public static void task8 () {
+        System.out.println("Задание 8");
+        int monthMasha = 67760;
+        int yearMasha = monthMasha * 12;
+        int monthMashaReward = monthMasha + ((monthMasha / 100) * 10);
+        int yearMashaReward = monthMashaReward * 12;
+        int mashaDifference = yearMashaReward - yearMasha;
+        System.out.println("Маша теперь получает " + monthMashaReward + " рублей. Годовой доход вырос на " + mashaDifference +
+                " рублей.");
+
+        int monthDenis = 83690;
+        int yearDenis = monthDenis * 12;
+        int monthDenisReward = monthDenis + ((monthDenis / 100) * 10);
+        int yearDenisReward = monthDenisReward * 12;
+        int denisDifference = yearDenisReward - yearDenis;
+        System.out.println("Денис теперь получает " + monthDenisReward + " рублей. Годовой доход вырос на " + denisDifference +
+                " рублей.");
+
+        int monthKristina = 76230;
+        int yearKristina = monthKristina * 12;
+        int monthKristinaReward = monthKristina + ((monthKristina / 100) * 10);
+        int yearKristinaReward = monthKristinaReward * 12;
+        int kristinaDifference = yearKristinaReward -yearKristina;
+        System.out.println("Кристина теперь получает " + monthKristinaReward + " рублей. Годовой доход вырос на " + kristinaDifference +
+                " рублей.");
+
+    }
 
 }
 
