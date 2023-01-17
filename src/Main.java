@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
 
     }
 
@@ -73,6 +74,15 @@ public class Main {
     public static void task5 () {
         System.out.println("Задача 5");
         byte canSum = 120;
+        byte whiteCanClass = 2;
+        byte brownCanClass = 4;
+        int cansForClass = whiteCanClass + brownCanClass;
+        int numberOfClasses = canSum / cansForClass;
+        int numberWhiteCans = numberOfClasses * whiteCanClass;
+        int numberBrownCans = numberOfClasses * brownCanClass;
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + numberWhiteCans + " банок белой краски и " + numberBrownCans + " банок коричневой краски.");
+
+    }
 
 
 }
