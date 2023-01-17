@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
 
     }
 
@@ -104,7 +105,19 @@ public class Main {
 
         float productsTotalKg = productsTotal / 100f;
         System.out.println("Вес спортзавтрака в килограммах составляет " + productsTotalKg + " килограмм.");
+    }
 
+    public static void task7 () {
+        System.out.println("Задание 7");
+        double weightToLose = 7 / 1000f;
+        short dailyWeight1 = 250;
+        short dailyWeight2 = 500;
+        double numberOfDays1 = weightToLose / dailyWeight1;
+        double numberOfDays2 = weightToLose / dailyWeight2;
+        double numberOfDaysAverage = (numberOfDays1 + numberOfDays2) / 2;
+        System.out.println("Если спортсмен будет терять каждый день " + dailyWeight1 + " грамм, то на похудение уйдет " +
+                numberOfDays1 + " дней, если будет терять каждый день " + dailyWeight2 + " грамм, то на похудение уйдет " + numberOfDays2
+        + " дней. В среднем может потребоваться " + numberOfDaysAverage + (" дней.") );
 
     }
 
