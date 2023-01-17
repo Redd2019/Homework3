@@ -117,7 +117,7 @@ public class Main {
         double numberOfDaysAverage = (numberOfDays1 + numberOfDays2) / 2;
         System.out.println("Если спортсмен будет терять каждый день " + dailyWeight1 + " грамм, то на похудение уйдет " +
                 numberOfDays1 + " дней, если будет терять каждый день " + dailyWeight2 + " грамм, то на похудение уйдет " + numberOfDays2
-        + " дней. В среднем может потребоваться " + numberOfDaysAverage + (" дней.") );
+        + " дней. В среднем может потребоваться " + numberOfDaysAverage + (" дней на похудение.") );
 
     }
 
